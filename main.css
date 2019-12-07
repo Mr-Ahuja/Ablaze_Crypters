@@ -17,7 +17,7 @@
 
   .image {
     width: auto;
-    height: 10%;
+    height: 50%;
     border-radius: 4px;
     padding: 5px;
     display:block;
@@ -29,6 +29,7 @@
     display: block;
     width: auto;
     height: 20%;
+    margin-bottom: 3%;
   }
 
   .heading {
