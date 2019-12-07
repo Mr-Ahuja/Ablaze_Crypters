@@ -81,7 +81,7 @@ function keyTrigger(evt) {
 
 function touchAction(el, type) {
 
-    if (type == "l")
+    if (type == "r")
       {
         if (x > 0) {
             addTimeToDict(x);
@@ -89,7 +89,7 @@ function touchAction(el, type) {
             createNewsCards();
         }
       }
-    else if (type == "r")
+    else if (type == "l")
     {
         if (x < data.length - 1) {
             addTimeToDict(x);
